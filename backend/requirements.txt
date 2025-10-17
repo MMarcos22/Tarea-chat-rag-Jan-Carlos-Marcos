@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+python-socketio[asgi]
+openai>=1.30.0
+psycopg2-binary
+pdfminer.six
+python-dotenv
+numpy

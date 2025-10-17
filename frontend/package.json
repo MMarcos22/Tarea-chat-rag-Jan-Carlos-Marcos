@@ -1,0 +1,20 @@
+{
+  "name": "nuxt-rag",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "nuxt": "^3.13.0",
+    "socket.io-client": "^4.7.5"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.13"
+  }
+}

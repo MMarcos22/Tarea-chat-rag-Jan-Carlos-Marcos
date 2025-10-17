@@ -1,0 +1,6 @@
+from typing import Protocol, Iterable
+from uuid import UUID
+
+class VectorRepository(Protocol):
+    def upsert_embeddings(self, pairs: Iterable[tuple[UUID, list[float]]]) -> None: ...
+    def search(self, query_embedding: list[float], top_k: int, document_id: UUID) -> list[dict]: ...
